@@ -1,0 +1,49 @@
+# Current repo was initialized inside the virtual environment.
+# Ignore the environment internals so only app files remain visible.
+Lib/
+Scripts/
+Include/
+etc/
+share/
+pyvenv.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and packaging artifacts
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit local config and secrets
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
